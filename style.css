@@ -1,0 +1,139 @@
+/*
+ * Theme Name: WilCity ChildTheme
+ * Theme URI: https://wilcity.com
+ * Author: wiloke
+ * Author URI: https://wiloke.com
+ * Description: Listing WordPress Theme
+ * Version: 1.0
+ * Template: wilcity
+ */
+body.popup-active::-webkit-scrollbar {
+    display: none;
+}
+body {color: #7f7f7f;}
+
+/* Theme Primary Color is Red and it must be override this themes default style */
+.color-primary {color: #ab2429 !important;}
+
+
+/* CheckBoxes */
+.checkbox_text__3Go1u a {color: #ab2429;}
+.checkbox_text__3Go1u a:hover {text-decoration:underline;}
+.footer_widgets__3FIuV .checkbox_text__3Go1u a {color: #ffffff;}
+.footer_widgets__3FIuV .checkbox_text__3Go1u a:hover {color: #ab2429;}
+.select2-selection--multiple:after, .select2-selection--single:after, .select2-container--default .select2-results__option--highlighted[aria-selected], .bg-color-primary, .bg-color-primary--hover:hover, input:checked ~ .bg-color-primary--checked-after:after, input:checked ~ .bg-color-primary--checked, input:checked ~ .bg-color-primary--checked-after .checkbox-iconBg, .checkbox-border, .bg-color-primary--after:after {
+    background-color: #ab2429 !important;
+}
+
+
+
+/* Buttons */
+.wil-btn, .wil-btn--primary {
+    background-color: #ab2429 !important;
+    color: #fff !important;
+}
+.wil-btn i.color-primary, .wil-btn i.color-quaternary{color: #fff !important;}
+.wil-btn:hover, .wil-btn--primary:hover{
+	border-color:#000 !important;
+    background-color: #000000!important ;
+    color: #fff !important;
+}
+.form-submit button[type="submit"] {background-color: #ab2429;}
+.form-submit button[type="submit"]:hover {background-color: #000000; color:#ffffff;}
+.wil-btn.wil-btn--border.wil-btn--round.wil-btn--xs{background-color: #000000 !important;}
+.wil-btn.wil-btn--border.wil-btn--round.wil-btn--xs:hover{border-color: #000000 !important;}
+.wil-btn.wil-btn--border.wil-btn--round.wil-btn--xs i, .wil-btn i.color-1 {color:#fff !important;}
+
+
+
+/* Back to top button */
+.wil-scroll-top {background-color: #ab2429;color: #fff;}
+.wil-scroll-top:hover,  .wil-scroll-top:hover i{background-color: #000000;color: #fff !important; border-color:#000 !important;}
+
+
+
+/* Search Feature Input and Placholder*/
+.search-screen_search__15VV1 input {color: #000000;}
+.search-screen_search__15VV1 input::placeholder {color: #7f7f7f;}
+.search-screen_close__2OSie {color: #000000;}
+.searchbox_searchButton__1c9iK .wil-btn--primary{background-color: #ab2429 !important;}
+.searchbox_searchButton__1c9iK .wil-btn--primary:after {border-left-color: #ab2429 !important;}
+.searchbox_searchButton__1c9iK .wil-btn--primary {color: #ffffff !important;}
+.searchbox_searchInput__2p4ds div[class*='wrap'] {border: 2px solid #ab2429;}
+.checkbox_toggle__vd6vd .checkbox-iconBg {background-color: #7f7f7f;}
+
+
+/* Inputs */
+.widget-subsc__form .form-item input[type="email"], 
+.widget-subsc__form .form-item input[type="text"], 
+.widget-subsc__form .form-item textarea {color: #000000;}
+input, select, textarea {color: #000000;}
+input::placeholder {color: #7f7f7f;}
+	
+
+
+/* Input Placeholders */
+.widget-subsc__form .form-item input[type="email"]::placeholder, 
+.widget-subsc__form .form-item input[type="text"]::placeholder, 
+.widget-subsc__form .form-item textarea::placeholder {color: #7f7f7f;}
+
+
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .heading_title__1bzno {color: #000000;}
+
+
+/* Links */
+@media (min-width: 993px){a:hover {color: #ab2429;}}
+a:hover {color: #ab2429;}
+
+/* Little Heart Icons for search pages. */
+.utility-meta_primary__2xTvX {
+    border-color: #ab2429;
+    color: #ab2429; 
+}
+
+/* Header */
+.header_loginHead__3HoVP {color: #ab2429;}
+.header_loginHead__3HoVP:hover {color: #ffffff;}
+.header_loginItem__oVsmv.header-addlisting .wil-btn i {color: #ab2429;}
+.header_loginItem__oVsmv.header-addlisting .wil-btn:hover i {color: #ffffff;}
+
+
+/* Footer */
+.footer_module__1uDav {background-color: #000000;color: #7f7f7f; }
+.footer_module__1uDav .widget_statictis__item i {color: #ab2429;}
+.footer_textWrap__Xc_Ht {color: #7f7f7f;}
+
+
+
+
+/* css for this page http://caspianclients.com/theownerop/restaurant/smoking-goat/ */
+/* hover navlinks on this page */
+.list_horizontal__7fIr5 .list_link__2rDA1 {color: #7f7f7f;}
+.color-primary--hover:hover i, .color-primary--hover:hover {color: #ab2429 !important;}
+.content-box_title__1gBHS {color: #000000;}
+.content-box_title__1gBHS i {color: #ab2429;}
+.utility-box-1_menus__17rbu:hover .utility-box-1_title__1I925 {color: #ab2429;}
+.utility-box-1_menus__17rbu .utility-box-1_content__3jEL7 {color: #000000 !important;}
+.utility-box-1_menus__17rbu .utility-box-1_description__2VDJ6 {color: #000000;}
+.utility-box-1_menus__17rbu:hover .utility-box-1_description__2VDJ6 {color: #ab2429;}
+
+
+/* EVENTS CSS */
+/*  http://caspianclients.com/theownerop/search-v2-2/?postType=event&postsPerPage=12 caledar css */
+.event_date__2Z7TH {color: #000000;}
+.event_meta__CFFPg, .event_by__23HUz {color: #7f7f7f;}
+.color-dark-2, .color-dark-2--hover:hover {color: #ab2429 !important;}
+
+/* destinations */
+.pagination_pageItem__3SatM.current .pagination_pageLink__2UQhK {color: #ab2429;}
+/* listing footer */
+.listing_footerRight__2398w a {color: #7f7f7f;}
+.listing_footerRight__2398w a:hover {color: #ab2429;}
+.rated-small_wrap__2Eetz[data-rated^="1"],
+.rated-small_wrap__2Eetz[data-rated^="2"],
+.rated-small_wrap__2Eetz[data-rated^="3"],
+.rated-small_wrap__2Eetz[data-rated^="4"]{color: #ab2429;}
+.icon-box-1_icon__3V5c0 {color: #ffffff; background-color: #000;}
+.social-icon_style-2__17BFy .social-icon_item__3SLnb i {color: #fff;background-color: #000;}
